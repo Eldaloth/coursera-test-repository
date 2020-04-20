@@ -1,0 +1,80 @@
+h1{
+	text-align: center;
+}
+
+#container-fluid {
+
+}
+#section1{
+	position: relative;
+	background-color: #F5F5DC;
+	width: 30%;
+	height: 150px;
+	float: left;
+	border: 1px solid black;
+
+}
+
+#meet1{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #CD5C5C;
+}
+
+#text1{
+	padding: 20px;
+	position: relative;
+
+}
+
+#section2{
+	position: relative;
+	background-color: #7FFFD4;
+	width: 30%;
+	height: 150px;
+	float: left;
+	border: 1px solid black;
+}
+
+#meet2{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FFA500;
+}
+#text2{
+
+	padding-top: 20px;
+}
+
+#section3{
+	position: relative;
+	background-color: #00CED1;
+	width: 30%;
+	height: 150px;
+	border: 1px solid black;
+	float: left;
+}
+
+#meet3{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width: 100px;
+	height: 30px;
+	text-align: center;	
+	background-color: #FA8072;
+}
+
+#text3{
+	padding-top: 20px;
+}
