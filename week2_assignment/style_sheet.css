@@ -24,6 +24,7 @@ h1{
 	text-align: center;
 	font-weight: bold;
 	background-color: #CD5C5C;
+	border: 1px solid black;
 }
 
 #text1{
@@ -50,6 +51,7 @@ h1{
 	text-align: center;
 	font-weight: bold;
 	background-color: #FFA500;
+	border: 1px solid black;
 }
 #text2{
 
@@ -73,6 +75,7 @@ h1{
 	height: 30px;
 	text-align: center;	
 	background-color: #FA8072;
+	border: 1px solid black;
 }
 
 #text3{
