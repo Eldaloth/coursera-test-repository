@@ -1,9 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+
+
 h1{
 	text-align: center;
 }
 
 #container-fluid {
-
+ background-image: url("week2_assignment/dinner-menu-background-printables-and-menu-for-dinner-menu-background.jpg");
 }
 #section1{
 	position: relative;
@@ -12,6 +17,7 @@ h1{
 	height: 150px;
 	float: left;
 	border: 1px solid black;
+	margin: 30px;
 
 }
 
@@ -24,15 +30,17 @@ h1{
 	text-align: center;
 	font-weight: bold;
 	background-color: #CD5C5C;
+
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
+	padding-top: 5px;
 
 }
 
 #text1{
-	padding: 20px;
-	position: relative;
 
+	position: absolute;
+	padding: 20px;
 }
 
 #section2{
@@ -42,6 +50,7 @@ h1{
 	height: 150px;
 	float: left;
 	border: 1px solid black;
+	margin: 30px;
 }
 
 #meet2{
@@ -53,11 +62,15 @@ h1{
 	text-align: center;
 	font-weight: bold;
 	background-color: #FFA500;
-	border: 1px solid black;
+	color: white;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 5px;
 }
 #text2{
 
-	padding-top: 20px;
+	padding: 20px;
+
 }
 
 #section3{
@@ -67,6 +80,7 @@ h1{
 	height: 150px;
 	border: 1px solid black;
 	float: left;
+	margin: 30px;
 }
 
 #meet3{
@@ -76,10 +90,13 @@ h1{
 	width: 100px;
 	height: 30px;
 	text-align: center;	
+	font-weight: bold; 
 	background-color: #FA8072;
-	border: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 5px;
 }
 
 #text3{
-	padding-top: 20px;
+	padding: 20px;
 }
