@@ -12,8 +12,8 @@ body {
  background-repeat: no-repeat;
  
 }
-.row {
 
+.row {
 	width: 100%;
 	padding: 30px;
 	align-content: center;
@@ -23,10 +23,12 @@ body {
 	position: relative;
 	height: 200px;
 	float: left;
-	border: 1px solid black;
+	border: 3px solid black;
 	margin-bottom: 30px;
-	overflow: scroll;
+	
+
 }
+
 
 .meet{
 	position: absolute;
@@ -36,70 +38,92 @@ body {
 	height: 30px;
 	text-align: center;	
 	font-weight: bold; 
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
-	padding-top: 5px;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	padding-top: 3px;
+	font-size: 23px;
+	
+}
+
+.text-container{
+
+	padding-bottom: 180px;
+	height: 80%;
+	overflow: scroll;
+}
+
+p.text{
+
+width:90%;
+box-sizing:content-box;
+font-size: 18px;
+font-style: italic;
+font-weight: bolder;
+text-align: left;
+padding-left: 15px;
+padding-top: 15px;
+margin-left: auto;
+margin-right: auto;	
+
 }
 
 #section1{
-
 	background-color: #F5F5DC;
 }
 
-#meet1{
-	
-	background-color: #CD5C5C;
-	
-
+#chicken{	
+	background-color: #CD5C5C;	
+	color:white;
+	text-shadow: 2px 0 black;
 }
-
-#text1{
-
+ /* #text1{
 	position: absolute;
-	padding: 30px;
+	padding-left: 15px;
+	margin-left: auto;
 	margin-right: auto;
-	margin-right: auto;
-}
+
+} */
 
 #section2{
-
-	background-color: #7FFFD4;	
-	
+	background-color: #7FFFD4;		
 }
 
-#meet2{
-	
+#beef{	
 	background-color: #FFA500;
 	color:white;
-	
+	text-shadow: 2px 0 black;
 }
-#text2{
 
+ /*#text2{
 	padding: 30px;
+} */
 
-}
-
-#section3{
-	
+#section3{	
 	background-color: #00CED1;
 }
 
-#meet3{
-	
+#sushi{	
 	background-color: #FA8072;
+	color:white;
+	text-shadow: 2px 0 black;
 }
 
-#text3{
-
+/* #text3{
 	padding: 30px;
-}
+} */
 
+#footer{
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 5%;
+	background-color: blue;
+}
 /************Desktop****************/
 
 @media(min-width: 992px){
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-  	
+    float: left;	
   }
 
   .section{
@@ -154,23 +178,17 @@ body {
   }
 
   #section1{
-
   	float: left;
-  	width: 48%;
-  	
+  	width: 48%;	
   }
 
   #section2{
-
   	width: 48%;
   	float: right;
-
   }
 
   #section3{
- 
-  	width: auto;
-  	
+  	width: auto;	
   }
 
   .col-md-1 {
