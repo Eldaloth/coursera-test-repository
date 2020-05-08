@@ -1,0 +1,126 @@
+body{
+
+	font-size: 15px;
+	background-color: #61122f;
+	color: #fff;
+	font-family: "Oxygen", sans-serif;
+}
+
+/* HEADER */
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+
+}
+
+.navbar-brand{  /* Restaurant name */
+padding-top: 25px;
+}
+
+.navbar-brand h1{
+font-family: 'Lora', serif;
+color: #557c3e;
+font-size:1.3em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+line-height:.75;
+}
+
+.navbar-brand a:hover, .navbarbrand a:focus{
+
+text-decoration: none;
+}
+
+#logo-img{
+
+	background: url('../images/restaurant-logo_large.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand p { /* Kosher cert */
+color:#000;
+text-transform: uppercase;
+font-size: .7em;
+margin-top: 15px;
+}
+
+.navbar-brand p span { /* Star-K icon */
+vertical-align: middle;
+}
+
+/*
+#nav-list {
+  margin-top: 10px;
+}
+*/
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-size:22px;
+
+}
+
+
+#nav-list a:hover {
+  background-color: #E7E7E7;
+
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  font-size: 21px;
+  font-weight: bold;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  font-size: 0.9em;
+
+}
+
+#navbarToggler{
+margin-top: 0px;
+align-items: center;
+
+
+
+
+}
+
+.navbar-expand-lg button.navbar-toggler {
+  border: 1px solid #951C49;
+
+  /* border-color: #951C49; */
+}
+
+.navbar-expand-lg{
+	padding: 20px;
+
+}
+
+
+
+#nav-menu-lg {
+	margin-top: 13px;
+}
+
+@media (max-width: 375px){
+	#header-nav{
+	width:fit-content;
+}
+
+}
+
+
