@@ -130,7 +130,7 @@ h2{
   padding-left: 10px;
   padding-right: 10px;
   height:490px;
-  overflow: scroll;
+  overflow: hidden;
   font-weight: bold;
 
 }
