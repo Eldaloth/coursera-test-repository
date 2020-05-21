@@ -83,7 +83,7 @@ function buildAndShowHomeHTML (categories) {
       var chosenCategoryShortName =  chooseRandomCategory(categories).short_name;
 
       // Retrieve single category snippet
-      chosenCategoryShortName = chosenCategoryShortName;
+      chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
        var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml , "randomCategoryShortName", chosenCategoryShortName);
       
       insertHtml("#main-content",homeHtmlToInsertIntoMainPage);
@@ -105,7 +105,7 @@ function chooseRandomCategory (categories) {
 // Load the menu categories view
 dc.loadMenuCategories = function () {
   
-  ading("#main-content");
+  showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     allCategoriesUrl,
     buildAndShowCategoriesHTML);
