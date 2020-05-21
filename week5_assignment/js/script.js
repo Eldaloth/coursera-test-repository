@@ -111,7 +111,6 @@ dc.loadMenuCategories = function () {
     buildAndShowCategoriesHTML);
 };
 
-
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
 dc.loadMenuItems = function (categoryShort) {
@@ -120,7 +119,6 @@ dc.loadMenuItems = function (categoryShort) {
     menuItemsUrl + categoryShort,
     buildAndShowMenuItemsHTML);
 };
-
 
 // Builds HTML for the categories page based on the data
 // from the server
@@ -301,7 +299,6 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
-
 
 global.$dc = dc;
 
